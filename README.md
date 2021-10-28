@@ -1,4 +1,4 @@
-# Part 6: Setting Up Insights Connectivity for RHEL Remdation.
+# Part 6: Setting Up Insights Connectivity for RHEL Remediation.
 
 [Tutorial Menu](https://github.com/pslucas0212/RedHat-Satellite-VM-Provisioning-to-vSphere-Tutorial) 
 
