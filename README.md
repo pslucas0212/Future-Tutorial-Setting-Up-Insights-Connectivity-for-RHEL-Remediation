@@ -54,7 +54,7 @@ First login to your Red Hat customer portal and click the Subscriptions tab.
 
 On your Red Hat customer portal page, click the Manage drop down list and chose RHSM API Token.
 
-![RH Portal -> Manage -> RHSM API Token](/inages/sat77.png)
+![RH Portal -> Manage -> RHSM API Token](/images/sat77.png)
 
 On the Red Hat API Tokens screen clock the blue GENERATE TOKEN button and on the next page clock the click the copy button.
 
