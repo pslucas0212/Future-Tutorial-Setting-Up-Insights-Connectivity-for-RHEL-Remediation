@@ -76,7 +76,7 @@ On the left hand navigation bar choose Configure -> Insights.
 
 ![Configure -> Insighs](/images/sat82.png)
 
-On the Red Hat Insights page, let's change the Settings | Synchronize Automaticall to On and then click the Start recommendations sync to start the first synchronization.  On this page we will see RHEL VM hostnames and recommended remediations.  
+On the Red Hat Insights page, let's change the Settings | Synchronize Automatically to On and then click the Start recommendations sync to start the first synchronization.  On this page we will see RHEL VM hostnames and recommended remediations.  
 
 ![Red Hat Insights Page](/images/sat83.png)
 
