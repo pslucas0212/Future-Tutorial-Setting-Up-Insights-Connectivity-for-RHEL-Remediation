@@ -42,7 +42,7 @@ If you have any issues, you can often get additional information from the Job st
 
 On the Jobs Invocation page, click the link to the particular job for more detail.
 
-![Job Invocation Page](/sat/images/sat75.png)
+![Job Invocation Page](/images/sat75.png)
 
 We enabled host registration to Insights in the cloud-init template.  No other action is needed for this step.
 
