@@ -8,7 +8,7 @@
 
 Preparing Satellite to upload host inventory
 
-We will need to install the invntory plug-in on Satellite and we will also enable users to run commands over SSH as root on Satellite if needed.  Watch for the Success! message when the task is completed.
+We will need to install the inventory plug-in on Satellite and we will also enable users to run commands over SSH as root on Satellite if needed.  Watch for the Success! message when the task is completed.
 
 ```
 # satellite-installer \
@@ -45,6 +45,46 @@ On the Jobs Invocation page, click the link to the particular job for more detai
 ![Job Invocation Page](/images/sat75.png)
 
 We enabled host registration to Insights in the cloud-init template.  No other action is needed for this step.
+
+We will now finish up configuring the Cloud Connector. Configuring the Cloud Connect will allow us execute Ansible playbooks from Insights to remediate, update, etc.  From the navigation bar on the lef choose Administer -> Users.  
+
+![Administer -> Users](/images/satexx.png)
+
+On the User page you will see that the cloud_connector_user under the Username column has been created. Click on the cloud_connector_user link to edit the settings.
+
+![cloud_connector_user link](/images/satxx.png)
+
+On the Users > Edit cloud_connector_user page, select the User tab and enter a password in the Password and Verify text boxes.
+
+![Users -> cloud_connector_user >](/images/satxx.png)
+
+Check the Locations and Organziations tabs to make sure the correct location and organization is corrected.
+
+On the Roles tab chec that the Administrator check box has been checked and click the blue Submit button.
+
+![Users -> cloud_connector_user > Roles Tab](/images/satxx.png)
+
+Next on the navibation bar to the left, click Hosts -> All Hosts. Organizations to Any Organiztion and Locations to Any Locations
+
+![Hosts -> All Hosts](/images/satexx.png)
+
+On the Hosts page, click on sat01.example.com link.
+
+![Hosts -> sat01.example.com](/images/satxx.png)
+
+On the All Hosts > sat01.example.com page click Schedule Remote Job button.
+
+![Jobs > Job Invocation](/images/statxx.png)
+
+On the Jobs > Job Invocaation use the following table to select or fill in the appropriate choices.
+  
+
+Field Name | Vablue
+---------- | ------
+Job Category* | Ansible Playbook
+
+
+
 
 To finish setting up ??? automatic RHEL remediation, we need to enable Insights...
 
